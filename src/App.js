@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import NavBar from "./Components/nav";
+import {Route,Routes} from 'react-router-dom';
+
+import C from "./Components/carousel";
+import Cards from "./Components/cards";
+import IconsSlider from "./Components/iconsslider";
+import ThreeCards from "./Components/axios";
+import TwoColumns from "./Components/twocolumns";
+import Form from "./Components/form";
+import CardsIcon from "./Components/CardsIcon";
+import Location from "./Components/location";
+const App = () => {
+return (
+	<div className="App">
+     <NavBar/>
+     <C/>
+     <Cards/>
+     <ThreeCards/>
+<TwoColumns/>
+<IconsSlider/>
+<Form/>
+<CardsIcon/>
+
+<Location/>
+</div>
+)
 }
 
 export default App;

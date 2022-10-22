@@ -1,0 +1,19 @@
+
+.dropdown{
+    margin-top: 25px;
+}
+li{
+    color: aliceblue;
+}
+  
+
+.nav-item{
+    text-decoration: none;
+   
+  color: rgb(116, 108, 108);
+
+}
+.nav-item:hover {
+ 
+  color: rgb(6, 93, 29);
+}
